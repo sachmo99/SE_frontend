@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import './Quiz.css';
 import { Card, Button } from 'react-bootstrap';
-import cookie from 'react-cookies';
+//import cookie from 'react-cookies';
 
 class Quiz extends Component {
+	constructor(props){
+		super(props);
+		this.state = {
+			noOfStudents: 0,
+			avg: 0,
+		}
+	}
 	
 	handleButtonClick = () =>{
 		// console.log(isPrvQuiz);
@@ -25,7 +32,7 @@ class Quiz extends Component {
 	}	
 
 	render() {
-		this.state = {}
+		
 		var color,text;
 		if(this.props.flag % 2)
 			{color = "danger";text="white"}

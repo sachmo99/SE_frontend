@@ -24,9 +24,9 @@ class App extends Component {
 
 
 	render = () => {
-		var ipaddress1 = '127.0.0.1'
+		//var ipaddress1 = '127.0.0.1'
 		var ipaddress2 = '192.168.99.100'
-		var ipaddress3 = '172.28.1.3'
+		//var ipaddress3 = '172.28.1.3'
 		cookie.save('ipaddress', ipaddress2, { path: '/sequizapp' });
 		var username = cookie.load('username', { path: '/sequizapp' })
 		if (username !== undefined) {
