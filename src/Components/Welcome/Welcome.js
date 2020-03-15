@@ -32,7 +32,7 @@ class App extends Component {
 		if (username !== undefined) {
 			console.log(window.location.origin);
 			alert(window.location.origin);
-			window.location.href = window.location.origin + '/dashboard'
+			window.location.href = window.location.origin + '/sequizapp/#/dashboard'
 		}
 
 		return (
