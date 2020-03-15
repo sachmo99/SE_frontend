@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8d0f0cdd4063bf5ef271ba311b94357",
+    "revision": "dea93495d8c22bc3ffa9b3f329e53eff",
     "url": "/sequizapp/index.html"
   },
   {
-    "revision": "066fb0057c1ab3cf2647",
+    "revision": "b308b3b28150fd96861d",
     "url": "/sequizapp/static/css/2.ac7b74cf.chunk.css"
   },
   {
-    "revision": "bf7a3dad88cf955fa69d",
+    "revision": "e9b11d652fbc2e73dbb1",
     "url": "/sequizapp/static/css/main.51f6fce5.chunk.css"
   },
   {
-    "revision": "066fb0057c1ab3cf2647",
-    "url": "/sequizapp/static/js/2.bb6cb56f.chunk.js"
+    "revision": "b308b3b28150fd96861d",
+    "url": "/sequizapp/static/js/2.3d6bde4d.chunk.js"
   },
   {
     "revision": "66bd9d5f4d5afeb1dd021ae67b639598",
-    "url": "/sequizapp/static/js/2.bb6cb56f.chunk.js.LICENSE"
+    "url": "/sequizapp/static/js/2.3d6bde4d.chunk.js.LICENSE"
   },
   {
-    "revision": "bf7a3dad88cf955fa69d",
-    "url": "/sequizapp/static/js/main.f46e2082.chunk.js"
+    "revision": "e9b11d652fbc2e73dbb1",
+    "url": "/sequizapp/static/js/main.1bf0b368.chunk.js"
   },
   {
     "revision": "1989faa88119884a3da8",
