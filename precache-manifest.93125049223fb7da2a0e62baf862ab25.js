@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84170143f3108d9f6849bb4e046512c3",
+    "revision": "a22bb7ce32ad0e2c70e2a97f7dc0d9b4",
     "url": "/sequizapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sequizapp/static/css/2.ac7b74cf.chunk.css"
   },
   {
-    "revision": "85eda2549614965d7c71",
+    "revision": "d4730910f65afa7d1150",
     "url": "/sequizapp/static/css/main.51f6fce5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sequizapp/static/js/2.3d6bde4d.chunk.js.LICENSE"
   },
   {
-    "revision": "85eda2549614965d7c71",
-    "url": "/sequizapp/static/js/main.52f99e2d.chunk.js"
+    "revision": "d4730910f65afa7d1150",
+    "url": "/sequizapp/static/js/main.a8f0defd.chunk.js"
   },
   {
     "revision": "1989faa88119884a3da8",
