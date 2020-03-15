@@ -9,12 +9,12 @@ class Quiz extends Component {
 		// console.log(isPrvQuiz);
 		
 		if(this.props.prvQuiz === true){
-			cookie.save('quizCode', this.props.id, { path: '/' })
-			window.location.href = window.location.origin + '/viewResult'
+			cookie.save('quizCode', this.props.id, { path: '/sequizapp' })
+			window.location.href = window.location.origin + '/sequizapp/#/viewResult'
 		}
 		else{
-			cookie.save('quizCode', this.props.id, { path: '/' })
-			window.location.href = window.location.origin + '/testArena'
+			cookie.save('quizCode', this.props.id, { path: '/sequizapp' })
+			window.location.href = window.location.origin + '/sequizapp/#/testArena'
 		}
 	}
 

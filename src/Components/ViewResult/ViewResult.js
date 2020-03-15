@@ -8,7 +8,7 @@ class ViewResult extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
-		var quizCode = cookie.load('quizCode', { path: '/' })
+		var quizCode = cookie.load('quizCode', { path: '/sequizapp' })
 		var ipaddress = cookie.load('ipaddress');
 		fetch(`http://${ipaddress}:5000/getTestQuestions?quizCode=${quizCode}`, {
 			method: 'GET',
@@ -17,7 +17,7 @@ class ViewResult extends Component {
 				// console.log(this.state.questions);
 			}))
 
-		var username = cookie.load('username', { path: '/' })
+		var username = cookie.load('username', { path: '/sequizapp' })
 		ipaddress = cookie.load('ipaddress');
 		fetch(`http://${ipaddress}:5000/getUser?username=${username}`, {
 			method: 'GET',

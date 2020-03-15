@@ -33,9 +33,9 @@ class TestArena extends Component {
 			}
 		}
 		var quizResult = JSON.stringify({
-			username: cookie.load('username', { path: '/' }),
+			username: cookie.load('username', { path: '/sequizapp' }),
 			QuizInfo: {
-				quizCode: cookie.load('quizCode', { path: '/' }),
+				quizCode: cookie.load('quizCode', { path: '/sequizapp' }),
 				correctAns: correctAnss,
 				isCorrect : isCorrect,
 				answers: answers,
@@ -51,17 +51,17 @@ class TestArena extends Component {
 			method: 'GET',
 		}).then(res => res.json());
 		alert('Your Answers have been submitted successfully');
-		window.location.href = window.location.origin + '/dashboard';
-		cookie.remove('quizCode', { path: '/' });
+		window.location.href = window.location.origin + '/sequizapp/#/dashboard';
+		cookie.remove('quizCode', { path: '/sequizapp' });
 	}
 
 	constructor(props) {
 		super(props);
 
-		var quizCode = cookie.load('quizCode', { path: '/' })
+		var quizCode = cookie.load('quizCode', { path: '/sequizapp' })
 		if (quizCode === undefined) {
 			setTimeout(()=>{
-			window.location.href = window.location.origin + '/dashboard';
+			window.location.href = window.location.origin + '/sequizapp/#/dashboard';
 			alert('You can\'t hack this.. Test has already been submitted');
 			},500);
 		}
@@ -82,7 +82,7 @@ class TestArena extends Component {
 		return (
 			<div>
 				{
-					cookie.load('quizCode', { path: '/' }) !== undefined ?
+					cookie.load('quizCode', { path: '/sequizapp' }) !== undefined ?
 						<div id="pageMargin">
 							<div id="Timer">
 								<div id="header" >

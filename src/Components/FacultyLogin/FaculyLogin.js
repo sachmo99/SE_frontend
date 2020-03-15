@@ -15,9 +15,9 @@ class App extends Component {
 
 	render = () => {
 
-		var username = cookie.load('facultyName', { path: '/' })
+		var username = cookie.load('facultyName', { path: '/sequizapp' })
 		if (username !== undefined) {
-			window.location.href = window.location.origin + '/facultydashboard'
+			window.location.href = window.location.origin + '/sequizapp/#/facultydashboard'
 		}
 
 		return (

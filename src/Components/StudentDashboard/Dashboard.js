@@ -38,7 +38,7 @@ class Dashboard extends Component {
 						</div>
 						:
 						<h1 id="luvda" className="jumbotron text-center">
-							<button onClick={()=>{window.location.href = window.location.origin + '/'}} class="btn btn-lg btn-primary">Please Login <i className="far fa-heart"></i></button>
+							<button onClick={()=>{window.location.href = window.location.origin + '/sequizapp/#/'}} class="btn btn-lg btn-primary">Please Login <i className="far fa-heart"></i></button>
 						</h1>
 				}
 

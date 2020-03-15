@@ -31,11 +31,11 @@ class Signin extends Component {
 
 	verifyUserLogin = (history) => {
 		if (this.state.userFound) {
-			cookie.save('username', this.state.username, { path: '/' })
+			cookie.save('username', this.state.username, { path: '/sequizapp' })
 			history.push('/sequizapp/#/dashboard')
 		}
 		else {
-			cookie.remove('username', { path: '/' })
+			cookie.remove('username', { path: '/sequizapp' })
 			console.log(this.state.userFound);
 		}
 	}

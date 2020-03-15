@@ -69,14 +69,14 @@ class Dashboard extends Component {
 
 								<div className="text-center">
 									<button id="createQuizButton" className="btn btn-success btn-lg" onClick={() => {
-										window.location.href = window.location.origin + '/createquiz'
+										window.location.href = window.location.origin + '/sequizapp/#/createquiz'
 									}}>Create Quiz</button>
 								</div>
 							</div>
 						</div>
 						:
 						<h1 id="luvda" className="jumbotron text-center">
-							<button onClick={() => { window.location.href = window.location.origin + '/admin' }} class="btn btn-lg btn-primary">Please Login <i className="far fa-heart"></i></button>
+							<button onClick={() => { window.location.href = window.location.origin + '/sequizapp/#/admin' }} class="btn btn-lg btn-primary">Please Login <i className="far fa-heart"></i></button>
 						</h1>
 				}
 

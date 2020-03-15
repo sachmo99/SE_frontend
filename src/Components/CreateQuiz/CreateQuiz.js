@@ -118,7 +118,7 @@ class CreateQuiz extends Component {
 			body: JSON.stringify(tobesent)
 		}).then(function (response) {
 			console.log(response);
-			window.location.href = window.location.origin + '/facultydashboard'
+			window.location.href = window.location.origin + '/sequizapp/#/facultydashboard'
 		})
 
 	}

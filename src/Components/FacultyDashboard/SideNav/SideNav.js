@@ -32,7 +32,7 @@ class SideNavComponent extends Component {
 					<SideNav.Toggle id="navToggleButton" />
 					<SideNav.Nav>
 
-						<NavItem id="navToDashboard"eventKey="home" onClick={() => { history.push('/facultydashboard') }}>
+						<NavItem id="navToDashboard"eventKey="home" onClick={() => { history.push('/sequizapp/#/facultydashboard') }}>
 							<NavIcon >
 								<i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
 							</NavIcon>
@@ -62,7 +62,7 @@ class SideNavComponent extends Component {
 
 						
 
-						<NavItem id="navToLogout" onClick={() => { cookie.remove('facultyName', { path: '/' }); history.push('/admin') }}>
+						<NavItem id="navToLogout" onClick={() => { cookie.remove('facultyName', { path: '/sequizapp' }); history.push('/sequizapp/#/admin') }}>
 							<NavIcon >
 								<i className="fa fa-window-close" aria-hidden="true"></i>
 							</NavIcon>
