@@ -30,7 +30,7 @@ jobs:
       run: |
         git config --global user.email "tsaimouli1999@gmail.com"
         git config --global user.name "sachmo99"
-        git remote set-url origin https://962f87299c978266a33d739c68430c56cfe2e85f@github.com/sachmo99/sequizapp.git
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/sachmo99/sequizapp.git
         npm run deploy
       
       
