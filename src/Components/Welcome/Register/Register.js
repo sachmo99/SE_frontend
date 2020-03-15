@@ -11,7 +11,11 @@ class Register extends Component {
 	}
 	state = {
 		'username': '',
-		'wrongUsernameFormat': false
+		'wrongUsernameFormat': false,
+		'password':'',
+		'email':'',
+		'mobile':'',
+		'rollNo':''
 	}
 
 	handleUsernameChange = (e) => {
@@ -47,6 +51,12 @@ class Register extends Component {
 	}
 
 	handleRegister = () => {
+		console.log(this.state);
+		if(this.state.username.length === 0 || this.state.email.length === 0 || this.state.rollNo.length === 0 || this.state.password.length === 0 || this.state.mobile.length === 0 ) {
+			alert("fields cannot be empty. please fill correctly");
+			console.log("entered incorrect");
+			return;
+		}
 		var ipaddress = cookie.load('ipaddress');
 		fetch(`http://${ipaddress}:5000/register?username=${this.state.username}&&password=${this.state.password}&&email=${this.state.email}&&rollNo=${this.state.rollNo}&&mobile=${this.state.mobile}`, {
 			method: 'GET',
