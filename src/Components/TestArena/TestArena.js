@@ -50,7 +50,7 @@ class TestArena extends Component {
 		fetch(`${ipaddress}/submitQuiz?quizResult=${quizResult}`, {
 			method: 'GET',
 		}).then(res => res.json());
-		alert('Your Answers have been submitted successfully');
+		alert('Your Answers have been submitted successfully '+window.location.origin);
 		window.location.href = window.location.origin + '/sequizapp/#/dashboard';
 		cookie.remove('quizCode', { path: '/sequizapp' });
 	}
