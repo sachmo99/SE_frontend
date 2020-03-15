@@ -112,13 +112,13 @@ class CreateQuiz extends Component {
 
 		var ipaddress = cookie.load('ipaddress');
 
-		fetch(`http://${ipaddress}:5000/submitNewQuiz`, {
+		fetch(`${ipaddress}/submitNewQuiz`, {
 			method: 'POST',
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify(tobesent)
 		}).then(function (response) {
 			console.log(response);
-			window.location.href = window.location.origin + '/sequizapp/#/facultydashboard'
+			window.location.href = window.location.origin + '/facultydashboard'
 		})
 
 	}

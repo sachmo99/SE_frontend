@@ -30,7 +30,7 @@ class App extends Component {
 		cookie.save('ipaddress', ipaddress2, { path: '/sequizapp' });
 		var username = cookie.load('username', { path: '/sequizapp' })
 		if (username !== undefined) {
-			window.location.href = window.location.origin + '/sequizapp/#/dashboard'
+			window.location.href = window.location.origin + '/#/dashboard'
 		}
 
 		return (
