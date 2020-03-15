@@ -32,6 +32,7 @@ class Signin extends Component {
 	verifyUserLogin = (history) => {
 		if (this.state.userFound) {
 			cookie.save('username', this.state.username, { path: '/sequizapp' })
+			alert(window.location.origin);
 			history.push('/sequizapp/#/dashboard')
 		}
 		else {

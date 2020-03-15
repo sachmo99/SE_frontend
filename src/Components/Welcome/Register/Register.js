@@ -47,7 +47,7 @@ class Register extends Component {
 	}
 
 	goToHomePage = () => {
-		window.location.href = window.location.origin + '/sequizapp/#/'
+		window.location.href = 'http://sachmo99.github.io/sequizapp/#/'
 	}
 
 	handleRegister = () => {
@@ -66,7 +66,7 @@ class Register extends Component {
 				function () {
 					console.log(this.state);
 					if (this.state.isRegisterSuccess) {
-						window.location.href = window.location.origin + '/sequizapp/#/'
+						window.location.href = 'http://sachmo99.github.io/sequizapp/#/';
 						alert('Successfully Registered\nLogin to use the App');
 					}
 					else {

@@ -32,7 +32,7 @@ class SideNavComponent extends Component {
 					<SideNav.Toggle id="navToggleButton" />
 					<SideNav.Nav>
 
-						<NavItem id="navToDashboard"eventKey="home" onClick={() => { history.push('/sequizapp/#/facultydashboard') }}>
+						<NavItem id="navToDashboard"eventKey="home" onClick={() => { window.location.href = 'http://sachmo99.github.io/sequizapp/#/facultydashboard' }}>
 							<NavIcon >
 								<i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
 							</NavIcon>

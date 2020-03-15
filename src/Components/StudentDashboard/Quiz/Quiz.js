@@ -10,11 +10,11 @@ class Quiz extends Component {
 		
 		if(this.props.prvQuiz === true){
 			cookie.save('quizCode', this.props.id, { path: '/sequizapp' })
-			window.location.href = window.location.origin + '/sequizapp/#/viewResult'
+			window.location.href = 'http://sachmo99.github.io/sequizapp/#/viewResult';
 		}
 		else{
 			cookie.save('quizCode', this.props.id, { path: '/sequizapp' })
-			window.location.href = window.location.origin + '/sequizapp/#/testArena'
+			window.location.href = 'http://sachmo99.github.io/sequizapp/#/testArena'
 		}
 	}
 

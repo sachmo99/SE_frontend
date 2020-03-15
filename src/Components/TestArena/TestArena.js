@@ -51,7 +51,7 @@ class TestArena extends Component {
 			method: 'GET',
 		}).then(res => res.json());
 		alert('Your Answers have been submitted successfully '+window.location.origin);
-		window.location.href = window.location.origin + '/sequizapp/#/dashboard';
+		window.location.href = 'http://sachmo99.github.io/sequizapp/#/dashboard';
 		cookie.remove('quizCode', { path: '/sequizapp' });
 	}
 
@@ -61,7 +61,7 @@ class TestArena extends Component {
 		var quizCode = cookie.load('quizCode', { path: '/sequizapp' })
 		if (quizCode === undefined) {
 			setTimeout(()=>{
-			window.location.href = window.location.origin + '/sequizapp/#/dashboard';
+			window.location.href = 'http://sachmo99.github.io/sequizapp/#/dashboard';
 			alert('You can\'t hack this.. Test has already been submitted');
 			},500);
 		}

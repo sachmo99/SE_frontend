@@ -17,7 +17,7 @@ class App extends Component {
 
 		var username = cookie.load('facultyName', { path: '/sequizapp' })
 		if (username !== undefined) {
-			window.location.href = window.location.origin + '/sequizapp/#/facultydashboard'
+			window.location.href = 'http://sachmo99.github.io/sequizapp/#/facultydashboard'
 		}
 
 		return (
