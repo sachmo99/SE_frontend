@@ -1,0 +1,33 @@
+.registerPage{
+	margin-left: 15%;
+	font-weight: bold;
+}
+
+.indentButton {
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+.indentErrorMsg {
+	margin-left: 480px;
+	color: red;
+	font-weight: bold;
+}
+
+.centrify{
+	margin-top: 25px;
+	margin-left: -300px;
+}
+
+#loginBackButton{
+	width: 150px;
+}
+
+#registerButton{
+	width: 100px;
+}
+
+.registerButton{
+	margin-top: 25px;
+	margin-left: -300px;
+}

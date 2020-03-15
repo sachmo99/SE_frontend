@@ -1,0 +1,39 @@
+.question {
+	margin-left: 5%;
+	margin-top: 40px;
+	overflow: auto;
+	
+	align-content: center;
+}
+
+.green{
+	color: green;
+}
+
+.red{
+	color: red;
+}
+
+.comment{
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	
+}
+
+.correctTag{
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#toggleResult{
+	margin-top: -160px;
+	margin-right: 5%;
+	height: 100px; 	
+	width: 12%;
+	float: right;
+	white-space: normal;
+	word-wrap: break-word;
+}
