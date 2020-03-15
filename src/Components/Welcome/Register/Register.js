@@ -58,7 +58,7 @@ class Register extends Component {
 			return;
 		}
 		var ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/register?username=${this.state.username}&&password=${this.state.password}&&email=${this.state.email}&&rollNo=${this.state.rollNo}&&mobile=${this.state.mobile}`, {
+		fetch(`${ipaddress}/register?username=${this.state.username}&&password=${this.state.password}&&email=${this.state.email}&&rollNo=${this.state.rollNo}&&mobile=${this.state.mobile}`, {
 			method: 'GET',
 		}).then(res => res.json())
 			.then(data => this.setState(

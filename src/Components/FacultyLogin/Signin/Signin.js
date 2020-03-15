@@ -31,18 +31,18 @@ class Signin extends Component {
 
 	verifyUserLogin = (history) => {
 		if (this.state.userFound) {
-			cookie.save('facultyName', this.state.username, { path: '/' })
-			history.push('/facultydashboard')
+			cookie.save('facultyName', this.state.username, { path: '/sequizapp' })
+			history.push('/sequizapp/#/facultydashboard')
 		}
 		else {
-			cookie.remove('facultyName', { path: '/' })
+			cookie.remove('facultyName', { path: '/sequizapp' })
 			console.log(this.state.userFound);
 		}
 	}
 
 	handleSignin = (history) => {
 		var ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/facultylogin?username=${this.state.username}&&password=${this.state.password}`, {
+		fetch(`${ipaddress}/facultylogin?username=${this.state.username}&&password=${this.state.password}`, {
 			method: 'GET',
 		}).then(res => res.json())
 			.then(data => {

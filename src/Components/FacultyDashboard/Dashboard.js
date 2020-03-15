@@ -16,7 +16,7 @@ class Dashboard extends Component {
 		this.setState({ username: cookie.load('facultyName') })
 		var facultyName = cookie.load('facultyName');
 		var ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/getFacultyQuizes?facultyName=${facultyName}`, {
+		fetch(`${ipaddress}/getFacultyQuizes?facultyName=${facultyName}`, {
 			method: 'GET',
 		}).then(res => res.json())
 			.then(data => this.setState(data, function () {
@@ -24,7 +24,7 @@ class Dashboard extends Component {
 				for (let i = 0; i < QuizInfo.length; i++) {
 					var quizCode = QuizInfo[i].quizCode;
 					console.log(quizCode);
-					fetch(`http://${ipaddress}:5000/getQuizBasicDetails?quizCode=${quizCode}`, {
+					fetch(`${ipaddress}/getQuizBasicDetails?quizCode=${quizCode}`, {
 						method: 'GET',
 					}).then(res => res.json())
 						.then(data => this.setState({}, function () {

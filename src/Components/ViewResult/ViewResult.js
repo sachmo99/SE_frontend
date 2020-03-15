@@ -10,7 +10,7 @@ class ViewResult extends Component {
 		this.state = {};
 		var quizCode = cookie.load('quizCode', { path: '/sequizapp' })
 		var ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/getTestQuestions?quizCode=${quizCode}`, {
+		fetch(`${ipaddress}/getTestQuestions?quizCode=${quizCode}`, {
 			method: 'GET',
 		}).then(res => res.json())
 			.then(quiz => this.setState({ questions: quiz.questions, course: quiz.course, topic: quiz.topic }, function () {
@@ -19,7 +19,7 @@ class ViewResult extends Component {
 
 		var username = cookie.load('username', { path: '/sequizapp' })
 		ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/getUser?username=${username}`, {
+		fetch(`${ipaddress}/getUser?username=${username}`, {
 			method: 'GET',
 		}).then(res => res.json())
 			.then(user => this.setState({ }, function () {

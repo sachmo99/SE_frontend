@@ -47,7 +47,7 @@ class TestArena extends Component {
 
 
 		var ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/submitQuiz?quizResult=${quizResult}`, {
+		fetch(`${ipaddress}/submitQuiz?quizResult=${quizResult}`, {
 			method: 'GET',
 		}).then(res => res.json());
 		alert('Your Answers have been submitted successfully');
@@ -67,7 +67,7 @@ class TestArena extends Component {
 		}
 		else {
 			var ipaddress = cookie.load('ipaddress');
-		fetch(`http://${ipaddress}:5000/getTestQuestions?quizCode=${quizCode}`, {
+		fetch(`${ipaddress}/getTestQuestions?quizCode=${quizCode}`, {
 				method: 'GET',
 			}).then(res => res.json())
 				.then(quiz => this.setState({ questions: quiz.questions, course: quiz.course, topic: quiz.topic }, function () {
