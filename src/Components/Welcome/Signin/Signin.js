@@ -33,7 +33,7 @@ class Signin extends Component {
 		if (this.state.userFound) {
 			cookie.save('username', this.state.username, { path: '/sequizapp' })
 			alert(window.location.origin);
-			history.push('/sequizapp/#/dashboard')
+			window.location.href = 'http://sachmo99.github.io/sequizapp/#/dashboard'
 		}
 		else {
 			cookie.remove('username', { path: '/sequizapp' })
