@@ -47,7 +47,7 @@ class Register extends Component {
 	}
 
 	goToHomePage = () => {
-		window.location.href = window.location.origin + '/'
+		window.location.href = window.location.origin + '/sequizapp/#/'
 	}
 
 	handleRegister = () => {
