@@ -9,7 +9,7 @@ import ViewStatistics from './Components/viewStatistics/viewStatistics';
 import CreateQuiz from './Components/CreateQuiz/CreateQuiz';
 
 
-import { Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 const notdefined = () => {
 	return (
@@ -22,7 +22,7 @@ const notdefined = () => {
 class App extends Component {
 	render = () => {
 		return (
-			<main>
+			<HashRouter>
 				<Switch>
 					<Route path='/' component={Welcome} exact />
 					<Route path='/dashboard' component={StudentDashboard} />
@@ -34,7 +34,7 @@ class App extends Component {
 					<Route path='/viewStatistics' Component={ViewStatistics}/>
 					<Route component={notdefined} />
 				</Switch>
-			</main>
+			</HashRouter>
 		);
 	}
 
