@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sequizapp/static/css/main.51f6fce5.chunk.css",
-    "main.js": "/sequizapp/static/js/main.4413f92a.chunk.js",
-    "main.js.map": "/sequizapp/static/js/main.4413f92a.chunk.js.map",
+    "main.js": "/sequizapp/static/js/main.db5953c7.chunk.js",
+    "main.js.map": "/sequizapp/static/js/main.db5953c7.chunk.js.map",
     "runtime-main.js": "/sequizapp/static/js/runtime-main.5e9611b9.js",
     "runtime-main.js.map": "/sequizapp/static/js/runtime-main.5e9611b9.js.map",
     "static/css/2.ac7b74cf.chunk.css": "/sequizapp/static/css/2.ac7b74cf.chunk.css",
     "static/js/2.3d6bde4d.chunk.js": "/sequizapp/static/js/2.3d6bde4d.chunk.js",
     "static/js/2.3d6bde4d.chunk.js.map": "/sequizapp/static/js/2.3d6bde4d.chunk.js.map",
     "index.html": "/sequizapp/index.html",
-    "precache-manifest.2d8b394a6781abc7b1ea612e2ab24169.js": "/sequizapp/precache-manifest.2d8b394a6781abc7b1ea612e2ab24169.js",
+    "precache-manifest.7ef2c789b7ec4ff985160248c68c16dd.js": "/sequizapp/precache-manifest.7ef2c789b7ec4ff985160248c68c16dd.js",
     "service-worker.js": "/sequizapp/service-worker.js",
     "static/css/2.ac7b74cf.chunk.css.map": "/sequizapp/static/css/2.ac7b74cf.chunk.css.map",
     "static/css/main.51f6fce5.chunk.css.map": "/sequizapp/static/css/main.51f6fce5.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.ac7b74cf.chunk.css",
     "static/js/2.3d6bde4d.chunk.js",
     "static/css/main.51f6fce5.chunk.css",
-    "static/js/main.4413f92a.chunk.js"
+    "static/js/main.db5953c7.chunk.js"
   ]
 }
