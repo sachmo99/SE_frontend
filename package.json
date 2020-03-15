@@ -2,7 +2,7 @@
   "name": "quizapp",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://sachmo99.github.io/SE_frontend",
+  "homepage":"http://sachmo99.github.io/sequizapp",
   "dependencies": {
     "@ishawnwang/withunmounted": "^1.0.1",
     "@testing-library/jest-dom": "^4.2.4",
