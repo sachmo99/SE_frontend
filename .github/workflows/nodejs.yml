@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 12.x]
+        node-version: [8.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -23,13 +23,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install
-      uses: actions/npm@master
-      with:
-        args: install -y
+      run: npm install
     - name: build
-      uses: actions/npm@master
-      with:
-        args: run build
+      run: npm build
     - name: deploy
       run: |
         git config --global user.email "tsaimouli1999@gmail.com"
