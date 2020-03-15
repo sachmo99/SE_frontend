@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/SE_frontend/static/css/main.2241ef4f.chunk.css",
-    "main.js": "/SE_frontend/static/js/main.0729e0d0.chunk.js",
-    "main.js.map": "/SE_frontend/static/js/main.0729e0d0.chunk.js.map",
-    "runtime-main.js": "/SE_frontend/static/js/runtime-main.362190b4.js",
-    "runtime-main.js.map": "/SE_frontend/static/js/runtime-main.362190b4.js.map",
-    "static/css/2.e12f28a5.chunk.css": "/SE_frontend/static/css/2.e12f28a5.chunk.css",
-    "static/js/2.92d59c4c.chunk.js": "/SE_frontend/static/js/2.92d59c4c.chunk.js",
-    "static/js/2.92d59c4c.chunk.js.map": "/SE_frontend/static/js/2.92d59c4c.chunk.js.map",
-    "index.html": "/SE_frontend/index.html",
-    "precache-manifest.30940f0c4ba2ba76f92a7c603b6780a2.js": "/SE_frontend/precache-manifest.30940f0c4ba2ba76f92a7c603b6780a2.js",
-    "service-worker.js": "/SE_frontend/service-worker.js",
-    "static/css/2.e12f28a5.chunk.css.map": "/SE_frontend/static/css/2.e12f28a5.chunk.css.map",
-    "static/css/main.2241ef4f.chunk.css.map": "/SE_frontend/static/css/main.2241ef4f.chunk.css.map",
-    "static/js/2.92d59c4c.chunk.js.LICENSE": "/SE_frontend/static/js/2.92d59c4c.chunk.js.LICENSE",
-    "static/media/HomePage.css": "/SE_frontend/static/media/SEGA.82e09f78.TTF",
-    "static/media/index.css": "/SE_frontend/static/media/background.305c2ac7.jpg",
-    "static/media/notifications.css": "/SE_frontend/static/media/notification.c0d3c94c.eot",
-    "static/media/sekalu.jpg": "/SE_frontend/static/media/sekalu.d546ecc2.jpg"
+    "main.css": "/sequizapp/static/css/main.51f6fce5.chunk.css",
+    "main.js": "/sequizapp/static/js/main.8216292a.chunk.js",
+    "main.js.map": "/sequizapp/static/js/main.8216292a.chunk.js.map",
+    "runtime-main.js": "/sequizapp/static/js/runtime-main.5e9611b9.js",
+    "runtime-main.js.map": "/sequizapp/static/js/runtime-main.5e9611b9.js.map",
+    "static/css/2.ac7b74cf.chunk.css": "/sequizapp/static/css/2.ac7b74cf.chunk.css",
+    "static/js/2.ea55a389.chunk.js": "/sequizapp/static/js/2.ea55a389.chunk.js",
+    "static/js/2.ea55a389.chunk.js.map": "/sequizapp/static/js/2.ea55a389.chunk.js.map",
+    "index.html": "/sequizapp/index.html",
+    "precache-manifest.407c2d13d9e053d61353a57dcb7e9dde.js": "/sequizapp/precache-manifest.407c2d13d9e053d61353a57dcb7e9dde.js",
+    "service-worker.js": "/sequizapp/service-worker.js",
+    "static/css/2.ac7b74cf.chunk.css.map": "/sequizapp/static/css/2.ac7b74cf.chunk.css.map",
+    "static/css/main.51f6fce5.chunk.css.map": "/sequizapp/static/css/main.51f6fce5.chunk.css.map",
+    "static/js/2.ea55a389.chunk.js.LICENSE": "/sequizapp/static/js/2.ea55a389.chunk.js.LICENSE",
+    "static/media/HomePage.css": "/sequizapp/static/media/SEGA.82e09f78.TTF",
+    "static/media/index.css": "/sequizapp/static/media/background.305c2ac7.jpg",
+    "static/media/notifications.css": "/sequizapp/static/media/notification.c0d3c94c.eot",
+    "static/media/sekalu.jpg": "/sequizapp/static/media/sekalu.d546ecc2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.362190b4.js",
-    "static/css/2.e12f28a5.chunk.css",
-    "static/js/2.92d59c4c.chunk.js",
-    "static/css/main.2241ef4f.chunk.css",
-    "static/js/main.0729e0d0.chunk.js"
+    "static/js/runtime-main.5e9611b9.js",
+    "static/css/2.ac7b74cf.chunk.css",
+    "static/js/2.ea55a389.chunk.js",
+    "static/css/main.51f6fce5.chunk.css",
+    "static/js/main.8216292a.chunk.js"
   ]
 }
