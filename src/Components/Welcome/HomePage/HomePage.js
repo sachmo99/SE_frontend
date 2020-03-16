@@ -7,7 +7,7 @@ class HomePage extends Component {
 		return (
 			<div id="quizApptitle" className="jumbotron bcc">
 				<h1 className="h0">
-					Quiz App
+					QA
 				</h1>
 			</div>
 		);
