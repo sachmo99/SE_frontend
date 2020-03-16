@@ -51,10 +51,15 @@ class Register extends Component {
 	}
 
 	handleRegister = () => {
+		var re = RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/);
 		console.log(this.state);
 		if(this.state.username.length === 0 || this.state.email.length === 0 || this.state.rollNo.length === 0 || this.state.password.length === 0 || this.state.mobile.length === 0 ) {
 			alert("fields cannot be empty. please fill correctly");
 			console.log("entered incorrect");
+			return;
+		}
+		else if(!re.test(this.state.email)){
+			alert("email address not valid");
 			return;
 		}
 		var ipaddress = cookie.load('ipaddress');

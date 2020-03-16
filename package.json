@@ -11,6 +11,7 @@
     "@trendmicro/react-sidenav": "^0.5.0",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "browserstack-local": "^1.4.5",
     "canvasjs": "^1.8.3",
     "concurrently": "^5.0.2",
     "d3-scale": "^3.2.1",

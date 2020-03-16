@@ -62,7 +62,7 @@ class SideNavComponent extends Component {
 
 						
 
-						<NavItem id="navToLogout" onClick={() => { cookie.remove('facultyName', { path: '/sequizapp' }); history.push('/sequizapp/#/admin') }}>
+						<NavItem id="navToLogout" onClick={() => { cookie.remove('facultyName', { path: '/sequizapp' }); window.location.href = 'http://sachmo99.github.io/sequizapp/#/admin' }}>
 							<NavIcon >
 								<i className="fa fa-window-close" aria-hidden="true"></i>
 							</NavIcon>
